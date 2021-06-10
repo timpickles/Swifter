@@ -3,16 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swifter",
+    name: "TwitterSwifter",
     platforms: [
         .macOS(.v10_10), .iOS(.v10)
     ],
     products: [
-        .library(name: "Swifter", targets: ["Swifter"]),
+        .library(name: "TwitterSwifter", targets: ["TwitterSwifter"]),
     ],
     targets: [
         .target(
-            name: "Swifter",
+            name: "TwitterSwifter",
             path: "Sources"
         ),
     ]
